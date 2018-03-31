@@ -323,46 +323,23 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/about-bg.jpg);
-  padding: 60px 0;
+  text-align: center;
+  background-image: url(../images/images/about-bg.jpg);
 }
 
-#about-us h2 {
-  margin-top: 0;
+#about-us i {
+  font-size: 48px;
+}
+
+#about-us h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
   color: #fff;
 }
 
-#about-us .lead {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-#about-us h1 {
-  margin-bottom: 30px;
-}
-
-.progress{
-  height: 20px;
-  background-color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 25px;
-}
-
-.progress-bar{
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  text-align: right;
-  padding-right: 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
+#about-us .slider-overlay {
+  opacity: 0.8;
 }
 
 /*************************
@@ -655,196 +632,7 @@ section {
   background-color: #fff;
 }
 
-/*************************
-********Twitter CSS*******
-**************************/
-#twitter {
-  background-image: url(../images/twitter-bg.jpg);
-}
 
-#twitter > div {
-  text-align: center;
-  position: relative;
-}
-
-#twitter-carousel {
-  position: relative;
-  z-index: 15
-}
-
-.twitter-icon {
-  position: relative;
-  z-index: 15;
-  color: #fff;
-}
-
-.twitter-icon .fa-twitter {
-  font-size: 24px;
-  height: 64px;
-  width: 64px;
-  line-height: 65px;
-  border-radius: 50%; 
-  position: relative;
-}
-
-.twitter-icon .fa-twitter:after {
-  position: absolute;
-  content: "";
-  border-width: 8px;
-  border-style: solid;
-  left: 24px;
-  bottom: -14px;
-}
-
-#twitter-carousel .item {
-  padding: 0 55px;
-}
-
-#twitter-carousel .item a {
-  color: #fff;
-}
-
-.twitter-icon h4 {
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: #fff;
-}
-
-.twitter-left-control, 
-.twitter-right-control {
-  position: absolute;
-  top: 50%;
-  color: #fff;
-  border: 1px solid #fafafa;
-  height:34px;
-  width: 34px;
-  line-height: 31px;
-  margin-top: -17px;
-  font-size: 18px;
-  border-radius: 50%;
-  z-index: 15
-}
-
-.twitter-left-control {
-  left: 80px;
-} 
-
-.twitter-right-control {
-  right: 80px
-}
-
-.twitter-left-control:hover, .twitter-right-control:hover {
-  color: #fff;
-}
-
-
-/*************************
-**********Blog CSS********
-**************************/
-
-.post-thumb {
-  position: relative;
-}
-
-.post-icon {
-  position: absolute;
-  top:10px;
-  right:10px;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  border-radius:4px;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-}
-
-.post-meta {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.post-meta span {
-  margin-right: 16px;
-}
-
-#post-carousel .carousel-indicators {
-  bottom: 3px;
-  left: 90%;
-}
-
-.blog-left-control, .blog-right-control {
-  position: absolute;
-  top: 45%;
-  width: 30px;
-  text-align: center;
-  color: rgba(255,255,255,.7);
-  font-size: 36px;
-}
-
-.blog-left-control {
-  left: 0;
-}
-
-.blog-right-control {
-  right: 0;
-}
-
-.blog-left-control:hover, .blog-right-control:hover {
-  color: #fff;  
-}
-
-.entry-header h3 a {
-  line-height: 30px;
-}
-
-.entry-header .date, 
-.entry-header .cetagory {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  position: relative;
-}
-
-.entry-header .date:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom:-22px;
-  width: 20px;
-  height: 3px;
-}
-
-.entry-content {
-  font-size: 14px;
-}
-
-.load-more {
-  display:block;
-  text-align: center;
-  margin-top: 70px;
-}
-
-.btn-loadmore {
-  border: 1px solid #f2f2f2;
-  color: #666666;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 15px 125px;
-  text-transform: uppercase;
-}
-
-.btn-loadmore:hover {
-  color:#fff;
-}
 
 /*************************
 **********Contact CSS*****
