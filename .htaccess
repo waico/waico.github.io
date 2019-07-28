@@ -1,6 +1,2 @@
-#	BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteRule л(.*)$ https://waico.ru/$l [R=301,L]
-</IfModule>
-#	END WordPress|
+Redirect 301 /was.php https://www.waico.ru
+
