@@ -1,0 +1,361 @@
+.black_block_2 {
+    width: 100%;
+    padding-bottom: 20px;
+    background: #121212;
+}
+
+.inner_command_black_block {
+    width: 1150px;
+    margin: 0 auto;
+   /*  border: 1px solid red; */
+}
+
+.command_title {
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'PTRootUIWebRegular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.command_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.command_col {
+    width: 350px;
+    margin-top: 88px;
+}
+
+.command_col_center {
+    margin-top: 50px;
+}
+
+.team_card {
+    width: 350px;
+    height: 217px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.t_card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 217px;
+    background: #202023;
+}
+
+/* team dots */
+
+.team_top_left {
+    top: -65px;
+    left: -65px;
+}
+
+.team_bottom_left {
+    bottom: -65px;
+    left: -65px;
+}
+
+.team_top_center {
+    top: -65px;
+    left: 19px;
+}
+
+.team_bottom_center {
+    bottom: -65px;
+    left: 19px;
+}
+
+.team_top_right {
+    top: -65px;
+    right: -65px;
+}
+
+.team_bottom_right {
+    bottom: -65px;
+    right: -65px;
+}
+
+.team_foto {
+    float: left;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.position_title {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #00E469;
+}
+
+.name_title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'PTRootUIWebRegular';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.team_content {
+    text-align: left;
+    margin: 0;
+    padding: 30px 40px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.command_mobile {
+    display: none;
+}
+
+.contacts {
+    padding-top: 166px;
+    width: 1150px;
+    margin: 0 auto;
+   /*  border: 1px solid red; */
+}
+
+.contacts_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts_logo {
+    flex-basis: 40%;
+}
+
+.contacts_form {
+    flex-basis: 60%;
+}
+
+.logo_title {
+    font-family: 'PTRootUIWebRegular';
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.logo_p {
+    width: 350px;
+    font-family: 'PTRootUIWebRegular';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.logo_circle {
+    margin-top: 75px;
+    position: relative;
+    width: 410px;
+    height: 210px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.circle_right {
+    top: 0;
+    left: 100px;
+}
+
+.logo_text {
+    position: absolute;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.tech {
+    top: 70px;
+    left: 30px;
+}
+
+.ai {
+    top: 70px;
+    left: 240px;
+}
+
+.logo_logo {
+    position: absolute;
+    top: 92px;
+    left: 140px;
+}
+
+.input_name {
+    margin: 15px;
+    width: 260px;
+    height: 60px;
+    padding: 18px 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #121212;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.text_area {
+    margin: 15px;
+    padding: 18px 20px;
+    width: 565px;
+    height: 125px;
+    color: white;
+    font-size: 16px;
+    background-color: #121212;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+}
+
+.form_bottom {
+    margin-left: 9px;
+    margin-top: 60px;
+    vertical-align: middle;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.green_btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items :center;
+    background-color: #00E469;
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkbox {
+    padding-left: 2px;
+}
+
+
+
+@media(max-width: 1160px) {
+
+        .command_title {
+            margin-top: 30px;
+        }
+
+        .inner_command_black_block {
+            width: 98vw;
+            margin: 0 auto;
+           /*  border: 1px solid red; */
+        }
+
+        .command_flex {
+            display: none;
+        }
+
+        #comm_mobile {
+            display: block;
+            position: relative;
+            width: 98vw;
+            height: 217px;
+        }
+
+        .t_card {
+            position: static;
+            width: 350px;
+            height: 217px;
+            background: #202023;
+        }
+
+        .contacts {
+            width: 100vw;
+            padding-top: 0px;
+            /* margin: 0 auto; */
+        }
+
+        .input_name  {
+            width: 94vw;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 2vw;
+            margin-right: 2vw;
+        }
+
+        .text_area   {
+            width: 94vw;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 2vw;
+            margin-right: 2vw;
+        }
+
+        .form_bottom {
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top: 5px;
+        }
+
+        .green_btn {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .checkbox_label {
+            display: inline;
+        }
+
+        .c_form {
+            width: 98vw;
+            margin-right: 0;
+        }
+
+        .logo_circle {
+            display: none;
+        }
+
+        .contacts_logo {
+            margin: 15px;
+            flex-basis: 100%;
+        }
+
+        .contacts_form {
+            flex-basis: 100%;
+        }
+}

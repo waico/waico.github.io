@@ -1,0 +1,246 @@
+.white_block_1 {
+    background: #FFFFFF;
+    width: 100vw;
+    padding-bottom: 20px;
+}
+
+.inner_white_block {
+    width: 1080px;
+    margin: 0 auto;
+   /*  border: 1px solid red; */
+}
+
+.white_block_title {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    font-family: 'PTRootUIWebBold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    color: #121212;
+}
+
+.press_slider {
+    width: 100%;
+    height: 398px;
+    position: relative;
+}
+
+.button-prev {
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+}
+
+.button-prev:focus {
+    outline: 0;
+}
+
+.button-next {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+}
+
+.button-next:focus {
+    outline: 0;
+}
+
+.press_slide {
+    position: relative;
+    border: 1px solid black;
+    height: 346px;
+}
+
+.swiper-lazy {
+    height: 346px;
+}
+
+.press_data {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #00E469;
+}
+
+.press_title {
+    font-family: 'PTRootUIWebBold';
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.achieve {
+    display: table;
+    border-collapse: collapse;
+    flex-basis: 48%;
+    text-align: left;
+    width: 48%; /* for FF */
+}
+
+.achieve:first-child {
+    margin-right: 15px;
+}
+
+.item_bold {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    width: 175px;
+    padding-left: 10px;
+}
+
+.item_right {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.achieve_item {
+    display: table-row;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 24px;
+    height: 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.work_flow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_flow_item {
+    width: 260px;
+}
+
+.work_flow_item_header {
+    display: flex;
+}
+
+.number {
+    width: 40px;
+    margin-top: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00E469;
+}
+
+.work_flow_title {
+    display: inline;
+    font-family: 'PTRootUIWebRegular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #121212;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li::before {
+    content: "•";
+    color: #3FEA8F;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.green_link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #1AE477;
+}
+
+.white_link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#swiper_work_flow {
+    display: none;
+}
+
+@media(max-width: 1160px) {
+
+    .achieve:first-child {
+        margin-right: 0;
+    }
+
+    .inner_white_block {
+        width: 100vw;
+    }
+
+    .press_slider {
+        width: 95vw;
+    }
+
+    #swiper_work_flow_static {
+        display: none;
+    }
+
+    #swiper_work_flow {
+        display: block;
+    }
+
+    .achieve {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 850px) {
+
+
+    .inner_white_block {
+        width: 95vw;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    .white_block_title {
+        padding-top: 40px;
+        margin-bottom: 20px;
+        font-size: 2.3em;
+    }
+}

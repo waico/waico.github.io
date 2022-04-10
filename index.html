@@ -1,11 +1,585 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; URL=http://waico.ru/" />
-</head><!--/head-->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+    <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+    <link rel="stylesheet" type="text/css" href="css/black_block_1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/white_block_1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/black_block_2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/white_block_2.css"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="fonts/PT&#32;Root&#32;UI_Bold/PT&#32;Root&#32;UI_Bold.css" rel="stylesheet">
+    <link href="fonts/PT&#32;Root&#32;UI_Light/PT&#32;Root&#32;UI_Light.css" rel="stylesheet">
+    <link href="fonts/PT&#32;Root&#32;UI_Medium/PT&#32;Root&#32;UI_Medium.css" rel="stylesheet">
+    <link href="fonts/PT&#32;Root&#32;UI_Regular/PT&#32;Root&#32;UI_Regular.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <title>WAICO</title>
+</head>
 <body>
+<!-- Header -->
+<div class="header">
+    <div class="nav-container">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html#" class="logo">
+                    <img src="img/logo.svg" width="30" height="22" alt="">
+                </a>
+            </div>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                          <ul class="menu_list">
+                            <li class="menu_item"><a href="index.html#section-work">Work</a></li>
+                            <li class="menu_item"><a href="index.html#section-aboutus">About us</a></li>
+                            <li class="menu_item"><a href="index.html#section-form-feedback">Cantacts</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /.nav-container -->
+</div><!-- /.header -->
+<div class="black_block_1">
+    <div class="inner_black_block">
+        <img style="margin-left: 40px" src="img/waico.svg" width="58" height="12" alt="">
+        <h1 class="black_block_title"> We improve the work of inductrial enterprises 🏭 using AI technologies 🤖</h1>
+        <div class="cards">
+            <div class="cards_row">
+                <div class="card">
+                    <div class="card_dots card_dots_left_top"></div>
+                    <h3 class="card_title">Elevators predictive analytics</h3>
+                    <p class="card_paragraph">Development of ML models for elevator diagnostics</p>
+                    <a href="pdf/elevators_WAICO.pdf">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="card_dots card_dots_right_top"></div>
+                    <h3 class="card_title">Oil and gas pipelines diagnostics</h3>
+                    <p class="card_paragraph">Automatic ML-based magnetograms analysis for pipelines diagnostics</p>
+                    <a href="pdf/pipelines_WAICO.pdf">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="cards_row">
+                    <div class="card">
+                        <div class="card_dots card_dots_left_bottom"></div>
+                        <h3 class="card_title">AI in inductrial application</h3>
+                        <p class="card_paragraph">Platform for process monitoring, product quality prediction, process optimisation, and predictive analytics</p>
+                        <a href="pdf/platform_WAICO.pdf">
+                          <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="card_dots card_dots_right_bottom"></div>
+                        <h3 class="card_title">Your solution</h3>
+                        <p class="card_paragraph">Write to us</p>
+                        <a href="index.html#section-contacts">
+                          <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                        </a>
+                    </div>
+                </div>
+        </div> 
+        <div class="swiper-container mobile_cards" id="swiper_cards">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide card">
+                    <h3 class="card_title">Elevators predictive analytics</h3>
+                    <p class="card_paragraph">Development of ML models for elevator diagnostics</p>
+                    <a href="pdf/elevators_WAICO.pdf">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card_dots card_dots_right_top"></div>
+                    <h3 class="card_title">Oil and gas pipelines diagnostics</h3>
+                    <p class="card_paragraph">Automatic ML-based magnetograms analysis for pipelines diagnostics</p>
+                    <a href="pdf/pipelines_WAICO.pdf">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card_dots card_dots_left_bottom"></div>
+                    <h3 class="card_title">AI in inductrial application</h3>
+                    <p class="card_paragraph">Platform for process monitoring, product quality prediction, process optimisation, and predictive analytics</p>
+                    <a href="pdf/platform_WAICO.pdf">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card_dots card_dots_right_bottom"></div>
+                    <h3 class="card_title">Your solution</h3>
+                    <p class="card_paragraph">Write to us</p>
+                    <a href="index.html#section-contacts">
+                      <img class="card_arrow" src="img/rightarrow.svg" width="40" height="20" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.black_block -->
+<section id="section-work">
+<div class="white_block_1">
+    <div class="inner_white_block">
+        <h1 class="white_block_title">How we work 🤖&nbsp;👨🏻‍🔬&nbsp;🤖</h1>
+        <div class="work_flow" id="swiper_work_flow_static">
+                    <div class="work_flow_item">
+                        <div class="work_flow_item_header">
+                            <h3 class="number">01</h3>
+                            <h3 class="work_flow_title">Project<br/>preparation 📑</h3>
+                        </div>
+                        <img style="display: block;" src="img/longarrow.svg" width="250" height="20" alt="">
+                        <ul class="list">
+                            <li>Goals, tasks, resources determining</li>
+                            <li>Work planning</li>
+                            <li>NDAs, contracts signing</li>
+                        </ul>
+                    </div>
+                    <div class="work_flow_item">
+                        <div class="work_flow_item_header">
+                            <h3 class="number">02</h3>
+                            <h3 class="work_flow_title">Hypothesis<br/>checking 🕵️‍♀️</h3>
+                        </div>
+                        <img style="display: block;" src="img/wall.svg" width="248" height="20" alt="">
+                        <ul class="list">
+                            <li>Business, data understanding</li>
+                            <li>Business, DS hypothesis formulation</li>
+                            <li>Effects evaluation</li>
+                        </ul>
+                    </div>
+                    <div class="work_flow_item">
+                        <div class=" work_flow_item_header">
+                            <h3 class="number">03</h3>
+                            <h3 class="work_flow_title">Solution<br/> piloting 👨‍💻</h3>
+                        </div>
+                        <img style="display: block;" src="img/dottedarrow.svg" width="250" height="20" alt="">
+                        <ul class="list">
+                            <li>Product development</li>
+                            <li>integration with business processes</li>
+                            <li>Project testing</li>
+                        </ul>
+                    </div>
+                    <div class="work_flow_item">
+                        <div class="work_flow_item_header">
+                            <h3 class="number">04</h3>
+                            <h3 class="work_flow_title">Commercial introduction 📈</h3>
+                        </div>
+                        <img style="display: block;" src="img/boldarrow.svg" width="250" height="20" alt="">
+                        <ul class="list">
+                            <li>ML-model, Product work automatization</li>
+                            <li>Support</li>
+                            <li>Effects measuring</li>
+                        </ul>
+                    </div>
+        </div>
+        <!-- mobile  -->
+        <div class="swiper-container work_flow" id="swiper_work_flow">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide work_flow_item">
+                    <div class="work_flow_item_header">
+                        <h3 class="number">01</h3>
+                        <h3 class="work_flow_title">Project<br/>preparation</h3>
+                    </div>
+                    <img style="display: block;" src="img/longarrow.svg" width="250" height="20" alt="">
+                    <ul class="list">
+                        <li>Goals, tasks, resources determining</li>
+                        <li>Work planning</li>
+                        <li>NDAs, contracts signing</li>
+                    </ul>
+                </div>
+                <div class="swiper-slide work_flow_item">
+                    <div class="work_flow_item_header">
+                        <h3 class="number">02</h3>
+                        <h3 class="work_flow_title">Hypothesis<br/>checking</h3>
+                    </div>
+                    <img style="display: block;" src="img/wall.svg" width="248" height="20" alt="">
+                    <ul class="list">
+                        <li>Business, data understanding</li>
+                        <li>Business, DS hypothesis formulation</li>
+                        <li>Effects evaluation</li>
+                    </ul>
+                </div>
+                <div class="swiper-slide work_flow_item">
+                    <div class=" work_flow_item_header">
+                        <h3 class="number">03</h3>
+                        <h3 class="work_flow_title">Solution<br/> piloting</h3>
+                    </div>
+                    <img style="display: block;" src="img/dottedarrow.svg" width="250" height="20" alt="">
+                    <ul class="list">
+                        <li>Product development</li>
+                        <li>integration with business processes</li>
+                        <li>Project testing</li>
+                    </ul>
+                </div>
+                <div class="swiper-slide work_flow_item">
+                    <div class="work_flow_item_header">
+                        <h3 class="number">04</h3>
+                        <h3 class="work_flow_title">Commercial introduction</h3>
+                    </div>
+                    <img style="display: block;" src="img/boldarrow.svg" width="250" height="20" alt="">
+                    <ul class="list">
+                        <li>ML-model, Product work automatization</li>
+                        <li>Support</li>
+                        <li>Effects measuring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end mobile -->
+        <a class="green_link" href="index.html#section-contacts">get an advice</a>
 
 
+        <h1 style="margin-bottom: 0" class="white_block_title"> News 🗞 📰 🗞</h1>
+        <div class="swiper-container press_slider" id="swiper_press">
+            <div class="button-prev"><img src="img/leftarrowblack.svg" alt=""/></div>
+            <div class="button-next"><img src="img/rightarrowblack.svg" alt=""/></div>
+            <div style="margin-top: 50px" class="swiper-wrapper">
+
+                <div class="swiper-slide press_slide">
+                    <div data-background="img/press/press4.png" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                        <a class="white_link" href="https://habr.com/ru/company/leadersofdigital/blog/477858/">
+                          <h3 class="press_title">(in Russian) Trully usefull work: what projects really ignited after preacceleration?</h3>
+                        </a>
+                    </div>
+                    <p class="press_data">28.11.2019</p>
+                </div>
+
+                <div class="swiper-slide press_slide">
+                    <div data-background="img/press/2020-01-19 16.13.58.jpg" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                        <a class="white_link" href="https://regnum.ru/news/economy/2744547.html">
+                        <h3 class="press_title">(in Russian) Leaders of digital hackathon: solution for «Gazpromneft»</h3>
+                      </a>
+                    </div>
+                    <p class="press_data">20.10.2019</p>
+                </div>
+
+                <div class="swiper-slide press_slide">
+                    <div data-background="img/press/press1.png" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                        <a class="white_link" href="https://www.skoltech.ru/2019/10/studenty-skolteha-vyacheslav-kozitsin-i-yurij-katser-v-sostave-komandy-waico-pobedili-v-konkurse-tsifrovoj-proryv/">
+                          <h3 class="press_title">Skoltech student have won leaders of digital hackathon</h3>
+                        </a>
+                    </div>
+                    <p class="press_data">18.10.2019</p>
+                </div>
+
+                <div class="swiper-slide press_slide">
+                    <div data-background="img/press/press4.png" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                        <a class="white_link" href="https://habr.com/ru/post/471098/">
+                          <h3 class="press_title">Leaders of digital - how it was?</h3>
+                        </a>
+                    </div>
+                    <p class="press_data">14.10.2019</p>
+                </div>
+
+            </div>
+        </div>
+        <h1 class="white_block_title">Achievements 🏆🥇🏆</h1>
+        <div class="achievements">
+
+            <div class="achieve">
+                <div class="achieve_item">
+                    <div class="item_bold">
+                      <img src="img/umnik.png" width="90%" height="auto" alt="">
+                    </div>
+                    <div class="item_right">
+                        4 grantees of "Umnnik"
+                    </div>
+                </div>
+
+                <div class="achieve_item">
+                    <div class="item_bold">
+                      <img src="img/cp.jpg"
+                      width="100%" height="auto" alt="">
+                    </div>
+                    <div class="item_right">
+                       Winners of 15+ hackathons
+                    </div>
+                </div>
+
+                <div class="achieve_item">
+                    <div class="item_bold">
+                      <img src="img/fc.jpg"
+                      width="90%" height="auto" alt="">
+                    </div>
+                    <div class="item_right">
+                        11 <br/>certificates for computer programs (patents) in the industrial DS/ML field
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="achieve">
+
+                <div class="achieve_item">
+                    <div class="item_bold">
+                      <div class="item_bold">
+                        <img src="img/gazprom.png"
+                        width="100%" height="auto" alt="">
+                      </div>
+                    </div>
+                    <div class="item_right">
+                      Graduated from 5+ acceleration programs: RUSSOL, GenerationS, Gazpromneft, ASI, etc.
+                    </div>
+                </div>
+
+                <div class="achieve_item">
+                    <div class="item_bold">
+                        <h1 class="white_block_title"  style="margin-top:0;margin-bottom:0; padding-top:0;" >
+                          👨🏻‍🔬📑🔬
+                        </h1>
+                    </div>
+                    <div class="item_right">
+                        20+ scientific works <br/> > 10 years of experience in Data Science
+                    </div>
+                </div>
+
+                <div class="achieve_item">
+                    <div class="item_bold">
+                      <img src="img/head_logo_fasie.png"
+                      width="90%" height="auto" alt="">
+                    </div>
+                    <div class="item_right">
+                        Grant for development <br/> of a program for pipelines giagnostics
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div> <!-- /.white_block -->
+</section>
+<div class="black_block_2">
+    <section id="section-aboutus">
+    <div class="inner_command_black_block">
+        <h1 class="command_title">Hello, that's our team 👋</h1>
+        <!-- command desktop -->
+        <div class="command_flex">
+            <div class="command_col">
+                <div class="team_card">
+                    <div class="card_dots team_top_left"></div>
+                    <div class="t_card">
+                        <img class="team_foto" src="img/team/malugin.png" alt="" width="62" height="62"/>
+                        <h4 class="position_title"> Business Development, UI/UX</h4>
+                        <h4 class="name_title">Nikita Titov</h4>
+                        <p class="team_content">3 startups, 2 exits, 10+ experience in UI/UX design
+                        </p>
+                    </div>
+                </div>
+                <div class="team_card">
+                    <div class="card_dots team_bottom_left"></div>
+                    <div class="t_card">
+                        <img class="team_foto" src="img/team/zagorulko.png" alt="" width="62" height="62"/>
+                        <h4 class="position_title">Full-stack developer</h4>
+                        <h4 class="name_title">Oleg Berezin</h4>
+                        <p class="team_content">10+ years as Full-stack developer, MLOps, DataOps, ML engineer
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="command_col command_col_center">
+                <div class="team_card">
+                    <div class="card_dots team_top_center"></div>
+                    <div class="t_card">
+                        <img class="team_foto" src="img/team/kozicin.png" alt="" width="62" height="62"/>
+                        <h4 class="position_title">ML Developer</h4>
+                        <h4 class="name_title">Viacheslav Kozitsin</h4>
+                        <p class="team_content">5+ years in BI, DS, ML, and IIOT 
+                        </p>
+                    </div>
+                </div>
+                <div class="team_card">
+                    <div class="card_dots team_bottom_center"></div>
+                    <div class="t_card">
+                        <img class="team_foto" src="img/team/kacer.png" alt="" width="62" height="62"/>
+                        <h4 class="position_title">ML Developer</h4>
+                        <h4 class="name_title">Iurii Katser</h4>
+                        <p class="team_content">Team managing, 5+ years in DS, ML
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="command_col">
+                <div class="team_card">
+                    <div class="card_dots team_top_right"></div>
+                    <div class="t_card">
+                        <img class="team_foto" src="img/team/maximov.png" alt="" width="62" height="62"/>
+                        <h4 class="position_title">Architect</h4>
+                        <h4 class="name_title">Ivan Maksimov</h4>
+                        <p class="team_content">10+ in development, ML, and IIOT
+                        </p>
+                    </div>
+                </div>
+                <div class="team_card green_card">
+                    <div class="card_dots team_bottom_right"></div>
+                    <div class="t_card green_card">
+                        <img src="img/waico_big.svg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end command desktop -->
+        <!-- command mobile -->
+        <div class="swiper-container command_mobile" id="comm_mobile">
+            <div class="swiper-wrapper">
+                        <div class="swiper-slide t_card">
+                            <img class="team_foto" src="img/team/malugin.png" alt="" width="62" height="62"/>
+                            <h4 class="position_title">Business Development, UI/UX</h4>
+                            <h4 class="name_title">Nikita Titov</h4>
+                            <p class="team_content">3 startups, 2 exits, 10+ experience in UI/UX design
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide t_card">
+                            <img class="team_foto" src="img/team/zagorulko.png" alt="" width="62" height="62"/>
+                            <h4 class="position_title">Full-stack developer</h4>
+                            <h4 class="name_title">Oleg Berezin</h4>
+                            <p class="team_content">Full-stack developer, MLOps, DataOps, ML engineering
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide t_card">
+                            <img class="team_foto" src="img/team/kozicin.png" alt="" width="62" height="62"/>
+                            <h4 class="position_title">ML Developer</h4>
+                            <h4 class="name_title">Viacheslav Kozitsin</h4>
+                            <p class="team_content">5+ years in BI, DS, ML, and IIOT
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide t_card">
+                            <img class="team_foto" src="img/team/kacer.png" alt="" width="62" height="62"/>
+                            <h4 class="position_title">ML Developer</h4>
+                            <h4 class="name_title">Iurii Katser</h4>
+                            <p class="team_content">Team managing, 5+ years in DS, ML
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide t_card">
+                            <img class="team_foto" src="img/team/maximov.png" alt="" width="62" height="62"/>
+                            <h4 class="position_title">Architect</h4>
+                            <h4 class="name_title">Ivan Maksimov</h4>
+                            <p class="team_content">10+ in development, ML, and IIOT
+                            </p>
+                        </div>
+                </div>
+        </div>
+        <!-- end command mobile -->
+    </div>
+</section>
+<section id="section-form-feedback">
+    <div class="contacts">
+        <div class="contacts_flex">
+            <div class="contacts_logo">
+                <h1 class="logo_title">Got a problem?</h1>
+                <!-- <p class="logo_p">Расскажите нам, сделаем крутые штуки вместе 😎 🧐</p> -->
+                <p class="logo_p">Tell us about your problems, let's solve them!     Our contacts: waico@waico.tech </p>
+
+                <div class="logo_circle">
+                    <div class="circle"></div>
+                    <div class="circle circle_right"></div>
+                    <p class="logo_text tech">tech</p>
+                    <img class="logo_logo" src="img/logo_green.svg" width="30" height="22" alt="">
+                    <p class="logo_text ai">ai</p>
+                </div>
+            </div>
+            <div class="contacts_form">
+                <form id="contactform" class="c_form">
+                    <input id="name" name="name" class="input_name" placeholder="Вас зовут"/><br/>
+                    <input id="adress" name="adress" class="input_name" placeholder="Адрес"/><br/>
+                    <input id="telephone" name="telephone" class="input_name" placeholder="Телефон"/>
+                    <input id="email" name="email" class="input_name" placeholder="Почта"/>
+                    <textarea id="message" name="message" placeholder="Расскажите о вашей идее" class="text_area"></textarea>
+                    <div class="form_bottom">
+                        <label class="checkbox">
+                            <input id="check2" type="checkbox" onchange="console.log('changed');">
+                            <span></span>
+                            I agree with <a href="pdf/confidential.txt" style="color: white" class="underline">the confidential agreement</a>
+                        </label>
+                        <div id="submit" class="green_btn"><img class="btn_arrow" src="img/rightarrowblack.svg" width="40" height="20" alt=""></div>
+                    </div>
+                </form>
+                <div id="formtext" class="form_bottom">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</div> <!-- /.command_black_block -->
+
+<!--<section id="section-contacts">
+<div class="white_final_block">
+    <div class="final_inner">
+        <div class="final_text">
+            <h1>Звоните, пишите, или заполните
+              <a href="#section-form-feedback">
+                <span class="green underline">форму&nbsp;&#8593;</span>
+              </a>
+            </h1>
+            <h4 class="contact_title">Адрес</h4>
+            <p>117105, г.Москва, Варшавское ш., д.28А, ЭТ 6 ОФ 24</p>
+            <div>
+                <h4 class="contact_title">Телефон</h4>
+                <p>+7 (963) 676-70-27</p>
+            </div>
+            <div>
+                <h4 class="contact_title">Почта</h4>
+                <p>waico@waico.ru</p>
+            </div>
+        </div>
+        <div class="yandex_map">
+            <a href="https://yandex.ru/maps/?um=constructor%3A05d9f9be551970908ed2c6a54cc4b76a6be905f0f4a5b3804776482c17e1e131&amp;source=constructorStatic" target="_blank"><img src="img/yandex2.png" alt="" style="border: 0;" /></a> 
+ -->           <!-- <img class="map_label" src="img/waicolabel.svg" alt=""/> -->
+<!--        </div>
+    </div>
+</div>
+</section> -->
+<div class="footer">
+    Waico, 2019-2022
+</div>
 </body>
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48152465 = new Ya.Metrika({
+                    id:48152465,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/48152465" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
 </html>
