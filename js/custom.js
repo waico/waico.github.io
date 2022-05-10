@@ -1,19 +1,16 @@
 $(function() {
-    // console.log('start');
 
     (function () {
         var e = document.getElementById("adress");
         e.parentNode.removeChild(e);
     })();
 
-    // https://css-tricks.com/findingfixing-unintended-body-overflow/
     var docWidth = document.documentElement.offsetWidth;
 
     [].forEach.call(
     document.querySelectorAll('*'),
     function(el) {
         if (el.offsetWidth > docWidth) {
-            console.log(el.offsetWidth, el);
         }
     });
 
@@ -22,7 +19,6 @@ $(function() {
 
     menuItems.forEach(function(el) {
         el.addEventListener('click', function() {
-            // console.log(e.currentTarget.innerText);
             checkbox.checked = false;
         })
     })
@@ -140,7 +136,6 @@ $(function() {
     
     $("#submit").click(function(event){
         var form_data = $("#contactform").serializeArray();
-        console.log('form_data', form_data,  $("#contactform"));
         var isFormValid = [true, true, true];
         for (var i = 0; i < form_data.length; i++) {
             if (form_data[i].name === 'name') {
@@ -180,7 +175,6 @@ $(function() {
                 url: 'https://script.google.com/macros/s/AKfycbwc2wLd_Xxegp0bboQI51IP1BVrkdiPee5wrJMjO_D6ooF8RUc/exec',
                 data: $('#contactform').serialize(),
                 success: function () {
-                    console.log('success');
                     $('#formtext').text('Ваше сообщение отправлено.');
                     $('#name').val('');
                     $('#email').val('');
@@ -188,7 +182,6 @@ $(function() {
                     $('#telephone').val('');
                 },
                 error: function() {
-                    console.log('error');
                     $('#formtext').html('<span style="color: red">Что то пошло не так, сервер не отвечает. Попробуйте связаться с нами позднее.</span>');
                 }
             });
