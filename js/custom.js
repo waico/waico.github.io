@@ -29,6 +29,11 @@ $(function() {
         loop: false,
         slidesPerView: 1,
         spaceBetween: 20,
+        
+        navigation: {
+            nextEl: '.button-card-next',
+            prevEl: '.button-card-prev',
+        }
     });
 
     var s2 = new Swiper ('#swiper_work_flow', {
@@ -98,13 +103,19 @@ $(function() {
         },
     });
 
-    $('.card').hover(function(){
+    function is_touch_device() {
+        return 'ontouchstart' in window || navigator.maxTouchPoints;
+    };
+
+    $('#projects .card').hover(function(){
+        if (is_touch_device()) return;
         var card = $(this)[0];
         card.children[0].style = 'display: block;';
         card.style = 'background: #00E469; color: black';
         var arrows = card.getElementsByClassName('card_arrow');
         arrows[0].src = '../img/rightarrowblack.svg';
     }, function(){
+        if (is_touch_device()) return;
         var card = $(this)[0];
         card.children[0].style = 'display: none;';
         card.style = '';

@@ -30,23 +30,23 @@
     position: relative;
 }
 
-.button-prev {
+.button-prev, .button-card-prev {
     cursor: pointer;
     position: absolute;
     right: 100px;
 }
 
-.button-prev:focus {
+.button-prev:focus, .button-card-prev:hover {
     outline: 0;
 }
 
-.button-next {
+.button-next, .button-card-next {
     cursor: pointer;
     position: absolute;
     right: 0px;
 }
 
-.button-next:focus {
+.button-next:focus, .button-card-next:hover {
     outline: 0;
 }
 
